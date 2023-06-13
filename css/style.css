@@ -104,6 +104,13 @@ nav  .navLink ul li:hover a{
   nav .navLink #navbtn{
     display: block;
   }
+
+}
+
+@media (max-width:500px) {
+    .img-bx img{
+        margin-left: 280px;
+    }
 }
 
 
