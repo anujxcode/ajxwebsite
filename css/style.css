@@ -288,4 +288,10 @@ nav  .navLink ul li:hover a{
     .col1 .img-bx img{
         width:40%;
     }
+
+    .col2 .link_button {
+        margin-top: 20px;
+        font-size: 20px;
+        color: var(--color_1);
+    }
  }
