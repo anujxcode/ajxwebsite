@@ -8,7 +8,7 @@ navBtn.addEventListener('click',()=>{
         logo.style.display = "none";
         logo.style.marginLeft="-200px";
         navurls.style.display="flex";
-        navurls.style.marginRight="100px"
+        navurls.style.marginRight="60px"
     }
     else{
         logo.style.display = "block";

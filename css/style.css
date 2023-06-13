@@ -107,11 +107,7 @@ nav  .navLink ul li:hover a{
 
 }
 
-@media (max-width:500px) {
-    .img-bx img{
-        margin-left: 280px;
-    }
-}
+
 
 
 
@@ -279,3 +275,17 @@ nav  .navLink ul li:hover a{
     flex:2;
     padding: 20px;
 }
+
+
+
+@media (max-width:500px) {
+    .col1 .img-bx{
+        width:200;
+        position:absolute;
+        margin-top: 20px;
+        left:135px;
+    }
+    .col1 .img-bx img{
+        width:40%;
+    }
+ }
