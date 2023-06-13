@@ -23,6 +23,9 @@
     --small_font:24px;
     --very_small_font:20px;
 }
+body{
+    background-color: var(--color_3);
+}
 
 /* hero section */
 #hero{
@@ -32,12 +35,14 @@
     overflow: hidden;
     padding-bottom: 130px;
 }
+
 nav{
     display: flex;
     width:80%;
     margin: auto;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 0px;
 }
 nav .logo{
     font-size: var(--small_font);
@@ -47,6 +52,11 @@ nav .logo{
 nav .logo span{
     font-size: 48px;
     color:var(--color_1)
+}
+
+nav .navLink{
+    display: flex;
+    align-items: center;
 }
 nav  .navLink ul{
     display: flex;
@@ -66,9 +76,38 @@ nav  .navLink ul li a{
     color:#8d8e9d;
     transition:.5s;
 }
+#navbtn:hover,
 nav  .navLink ul li:hover a{
     color:#fff;
 }
+
+#navbtn{
+    COLOR:#8d8e9d;
+    font-size: 24px;
+    display: none;
+}
+
+@media(max-width:960px){
+  
+  #navurls{
+    display: none;
+    margin-right: -100px;
+    transition: 5s;
+    transition-delay: 1s;
+  }
+
+
+  #logo{
+    margin-left: 0;
+    transition: .5s;
+  }
+  nav .navLink #navbtn{
+    display: block;
+  }
+}
+
+
+
 
 .content{
     width:70%;
@@ -184,6 +223,7 @@ nav  .navLink ul li:hover a{
         left:250px;
     }
 }
+
 @media(max-width:500px){
 
     .col1 .img-bx{
