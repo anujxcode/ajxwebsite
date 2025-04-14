@@ -297,4 +297,12 @@ nav  .navLink ul li:hover a{
         font-size: 20px;
         color: var(--color_1);
     }
+    .contect-col1{
+        flex:1;
+        padding: 10px;
+    }
+    .contect-col2{
+        padding: 10px;
+        margin-left: 0px;
+    }
  }
