@@ -189,12 +189,14 @@ nav  .navLink ul li:hover a{
     margin-top: 50px;
 }
 .col2 .link_button a{
-    font-size: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 500;
     color:var(--color_1)
 }
 
 .link_button i{
-    transform:rotate(45deg); 
+    /* transform:rotate(45deg);  */
     margin-left:5px;
     font-size:20px;
     color:#1cb573;
@@ -274,6 +276,7 @@ nav  .navLink ul li:hover a{
 .contect-col2{
     flex:2;
     padding: 20px;
+    margin-left: 50px;
 }
 
 
