@@ -357,10 +357,10 @@ nav  .navLink ul li:hover a{
     }
     .contect-col1{
         flex:1;
-        padding: 10px;
+        padding: 5px;
     }
     .contect-col2{
-        padding: 10px;
+        padding: 8px;
         margin-left: 0px;
     }
  }
