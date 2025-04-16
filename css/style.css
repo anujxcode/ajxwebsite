@@ -262,7 +262,10 @@ nav  .navLink ul li:hover a{
     }
 }
 
+
 /* about us */
+#webskills,
+#skills,
 #about{
     background-color:var(--color_3);
     width:100%;
@@ -279,7 +282,62 @@ nav  .navLink ul li:hover a{
     margin-left: 50px;
 }
 
+#skills{
+    background-color: var(--color_2);
+}
 
+#webskills{
+    background-color: var(--color_3);
+}
+
+
+
+#webskills .contect-col1 ul,
+#skills .contect-col1 ul{
+    list-style: none;
+}
+
+
+#webskills .contect-col1 ul li,
+#skills .contect-col1 ul li{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    background-color: var(--color_3);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#webskills .contect-col1 ul li{
+    background-color: var(--color_2);
+}
+
+#webskills .contect-col1 ul li img,
+#skills .contect-col1 ul li img{
+    width:20px;
+    margin-right: 10px;
+    filter: grayscale(1);
+}
+
+#webskills .contect-col2 ul,
+#skills .contect-col2 ul{
+  list-style: none;
+}
+
+#webskills .contect-col2 ul li h6,
+#skills .contect-col2 ul li h6{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color:var(--color_1);
+}
+
+#webskills .contect-col2 ul li p,
+#skills .contect-col2 ul li p{
+  margin-bottom: 30px;
+  padding-bottom: 8px;
+  border-bottom: 1px dotted #8d8e9d;
+}
 
 @media (max-width:500px) {
     .col1 .img-bx{
