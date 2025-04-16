@@ -230,6 +230,10 @@ nav  .navLink ul li:hover a{
 }
 
 @media(max-width:500px){
+    .content{
+        width:85%;
+        margin: auto;
+    }
 
     .col1 .img-bx{
         top:-100px;
